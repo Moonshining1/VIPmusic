@@ -24,7 +24,7 @@
       },
       "BOT_TOKEN": {
         "description": "𝐆𝐄𝐓 𝐁𝐎𝐓 𝐓𝐎𝐊𝐄𝐍 𝐅𝐑𝐎𝐌 𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑",
-        "value": "",
+        "value": "7250577682:AAEMEKA1scz0pNWTJDcm54yFyQ8-paq47PE",
         "required": true
       },
       "EXTRA_PLUGINS": {
@@ -39,12 +39,12 @@
       },
       "OWNER_ID": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐎𝐖𝐍𝐄𝐑 𝐈𝐃, 𝐔 𝐂𝐀𝐍 𝐔𝐒𝐄 𝐌𝐎𝐑𝐄 𝐏𝐄𝐑𝐒𝐎𝐍 𝐈𝐃 𝐁𝐘 𝐆𝐈𝐕𝐄𝐈𝐍𝐆 𝐒𝐏𝐀𝐂𝐄 𝐀𝐅𝐓𝐄𝐑 𝐎𝐍𝐄 𝐈𝐃.",
-        "value": "1808943146",
+        "value": "7006715434",
         "required": true
       },
       "STRING_SESSION": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐀  𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 V2 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍, 𝐈𝐅 𝐄𝐑𝐑𝐎𝐑 𝐓𝐇𝐄𝐍 𝐒𝐄𝐍𝐃 𝐄𝐑𝐑𝐎𝐑 𝐒𝐒 𝐓𝐎 𝐑𝐄𝐏𝐎 𝐎𝐖𝐍𝐄𝐑.( 𝐆𝐄𝐓 𝐅𝐑𝐎𝐌 = t.me/VIP_STRING_ROBOT ) . ",
-        "value": "",
+        "value": "BQGG19QAYOhUTeBhzlt0X3hpEgzzYhOoEcXg7829GxGnp-oZ1ZU-KT1R2bXkwX61IXVwca29bEJwfQzTrO8xfsn8qQDrdLaNL4xLuri18H-E9455OCfxtA_5bC-UTpuXFvMwFyDQv_F_X5JbdjvySlRLfbD894FAazOnKlmCo1j5enbqMbr2J5cr-IVBjPuyUrdhSlsf1nEnN_nnIcuFa8h4x2YNd17zuIDfUF1VWgvtxxecFbCkfWVDIGvH-RD637-f-0fktk0pv4yBxvrTP9RaawFaw9ZwRO66lUhRnRAnzXWaubPqMwXQHH60wINx4JV3KS2PpOB9ediETw1hCJ-EEFOh3QAAAAGqu24TAA",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -74,7 +74,7 @@
       },
       "LOGGER_ID": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐋𝐎𝐆 𝐆𝐑𝐎𝐔𝐏 𝐈𝐃 𝐖𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐁𝐎𝐓 𝐀𝐋𝐖𝐀𝐘𝐒 𝐒𝐓𝐀𝐘 𝐀𝐃𝐌𝐈𝐍 (𝐈𝐃 𝐌𝐔𝐒𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 𝐖𝐈𝐓𝐇 -100).",
-        "value": "",
+        "value": "-1002024032988",
         "required": true
       }
     },
