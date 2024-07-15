@@ -7,14 +7,14 @@ from pyrogram import filters
 
 load_dotenv()
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "25614292"))
+API_HASH = getenv("API_HASH", "59ee8005ce6b056fa639d956f028eeeb")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7250577682:AAEMEKA1scz0pNWTJDcm54yFyQ8-paq47PE")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mehoca2283:q9unKKrK4gAZvf7U@cluster0.imuhxkw.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
@@ -42,7 +42,7 @@ EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 
 
 LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001443337704"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002024032988"))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID"))
@@ -117,11 +117,11 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("STRING_SESSION", "BQGG19QAYOhUTeBhzlt0X3hpEgzzYhOoEcXg7829GxGnp-oZ1ZU-KT1R2bXkwX61IXVwca29bEJwfQzTrO8xfsn8qQDrdLaNL4xLuri18H-E9455OCfxtA_5bC-UTpuXFvMwFyDQv_F_X5JbdjvySlRLfbD894FAazOnKlmCo1j5enbqMbr2J5cr-IVBjPuyUrdhSlsf1nEnN_nnIcuFa8h4x2YNd17zuIDfUF1VWgvtxxecFbCkfWVDIGvH-RD637-f-0fktk0pv4yBxvrTP9RaawFaw9ZwRO66lUhRnRAnzXWaubPqMwXQHH60wINx4JV3KS2PpOB9ediETw1hCJ-EEFOh3QAAAAGqu24TAA")
+STRING2 = getenv("STRING_SESSION2", "BQGG19QAYOhUTeBhzlt0X3hpEgzzYhOoEcXg7829GxGnp-oZ1ZU-KT1R2bXkwX61IXVwca29bEJwfQzTrO8xfsn8qQDrdLaNL4xLuri18H-E9455OCfxtA_5bC-UTpuXFvMwFyDQv_F_X5JbdjvySlRLfbD894FAazOnKlmCo1j5enbqMbr2J5cr-IVBjPuyUrdhSlsf1nEnN_nnIcuFa8h4x2YNd17zuIDfUF1VWgvtxxecFbCkfWVDIGvH-RD637-f-0fktk0pv4yBxvrTP9RaawFaw9ZwRO66lUhRnRAnzXWaubPqMwXQHH60wINx4JV3KS2PpOB9ediETw1hCJ-EEFOh3QAAAAGqu24TAA")
+STRING3 = getenv("STRING_SESSION3", "BQGG19QAYOhUTeBhzlt0X3hpEgzzYhOoEcXg7829GxGnp-oZ1ZU-KT1R2bXkwX61IXVwca29bEJwfQzTrO8xfsn8qQDrdLaNL4xLuri18H-E9455OCfxtA_5bC-UTpuXFvMwFyDQv_F_X5JbdjvySlRLfbD894FAazOnKlmCo1j5enbqMbr2J5cr-IVBjPuyUrdhSlsf1nEnN_nnIcuFa8h4x2YNd17zuIDfUF1VWgvtxxecFbCkfWVDIGvH-RD637-f-0fktk0pv4yBxvrTP9RaawFaw9ZwRO66lUhRnRAnzXWaubPqMwXQHH60wINx4JV3KS2PpOB9ediETw1hCJ-EEFOh3QAAAAGqu24TAA")
+STRING4 = getenv("STRING_SESSION4", "BQGG19QAYOhUTeBhzlt0X3hpEgzzYhOoEcXg7829GxGnp-oZ1ZU-KT1R2bXkwX61IXVwca29bEJwfQzTrO8xfsn8qQDrdLaNL4xLuri18H-E9455OCfxtA_5bC-UTpuXFvMwFyDQv_F_X5JbdjvySlRLfbD894FAazOnKlmCo1j5enbqMbr2J5cr-IVBjPuyUrdhSlsf1nEnN_nnIcuFa8h4x2YNd17zuIDfUF1VWgvtxxecFbCkfWVDIGvH-RD637-f-0fktk0pv4yBxvrTP9RaawFaw9ZwRO66lUhRnRAnzXWaubPqMwXQHH60wINx4JV3KS2PpOB9ediETw1hCJ-EEFOh3QAAAAGqu24TAA")
+STRING5 = getenv("STRING_SESSION5", "BQGG19QAYOhUTeBhzlt0X3hpEgzzYhOoEcXg7829GxGnp-oZ1ZU-KT1R2bXkwX61IXVwca29bEJwfQzTrO8xfsn8qQDrdLaNL4xLuri18H-E9455OCfxtA_5bC-UTpuXFvMwFyDQv_F_X5JbdjvySlRLfbD894FAazOnKlmCo1j5enbqMbr2J5cr-IVBjPuyUrdhSlsf1nEnN_nnIcuFa8h4x2YNd17zuIDfUF1VWgvtxxecFbCkfWVDIGvH-RD637-f-0fktk0pv4yBxvrTP9RaawFaw9ZwRO66lUhRnRAnzXWaubPqMwXQHH60wINx4JV3KS2PpOB9ediETw1hCJ-EEFOh3QAAAAGqu24TAA")
 
 
 #    __      _______ _____    ___  __ _    _  _____ _____ _____   _____
