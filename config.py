@@ -7,14 +7,14 @@ from pyrogram import filters
 
 load_dotenv()
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "25614292"))
-API_HASH = getenv("API_HASH", "59ee8005ce6b056fa639d956f028eeeb")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7183969883:AAF9NyBNh9Hj0tbHwsERrcYpTV9i8Y3lNhg)
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mehoca2283:q9unKKrK4gAZvf7U@cluster0.imuhxkw.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
@@ -42,7 +42,7 @@ EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 
 
 LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002024032988"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002024032988")"))
 
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID"))
@@ -63,7 +63,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kittyxupdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/grandxmasti")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Grandxmasti")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "100"))
@@ -117,11 +117,11 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", "BQGG19QAM9Oz32BmDhulouBPwK5VqyNJ2wSGBiGyzc3qUesXWhI3M3DTr_h5V9kmj2wdXUaZRGwSq8q_M2xc3H8dJKf_wztRC_efdx8prz_ajWkokKccqBmlN3AObxuRVmCZg-bHflsKAH9IOood7iBZFrI9lcP2xMQXzbQ08AxQfzsDWa2gvWb4huE-NNQm0DlP1JDX8HBHTlYs0StipFpzFamNIOFp5xeiy8izbhuXAKP0Zz8eZKjdEtT02ApxK_yKmL8PijG-jmpvRbgPFzlTJNPhYGkdxDJo4Lw9YhIz4H9nA-Ia48aqlju1zB8KY8hGBI92oBXLCzT0s72rcuUaAdcgAAAAGqu24TAA")
-STRING2 = getenv("STRING_SESSION2", "BQGG19QAM9Oz32BmDhulouBPwK5VqyNJ2wSGBiGyzc3qUesXWhI3M3DTr_h5V9kmj2wdXUaZRGwSq8q_M2xc3H8dJKf_wztRC_efdx8prz_ajWkokKccqBmlN3AObxuRVmCZg-bHflsKAH9IOood7iBZFrI9lcP2xMQXzbQ08AxQfzsDWa2gvWb4huE-NNQm0DlP1JDX8HBHTlYs0StipFpzFamNIOFp5xeiy8izbhuXAKP0Zz8eZKjdEtT02ApxK_yKmL8PijG-jmpvRbgPFzlTJNPhYGkdxDJo4Lw9YhIz4H9nA-Ia48aqlju1zB8KY8hGBI92oBXLCzT0s72rcuUaAdcgAAAAGqu24TAA")
-STRING3 = getenv("STRING_SESSION3", "BQGG19QAM9Oz32BmDhulouBPwK5VqyNJ2wSGBiGyzc3qUesXWhI3M3DTr_h5V9kmj2wdXUaZRGwSq8q_M2xc3H8dJKf_wztRC_efdx8prz_ajWkokKccqBmlN3AObxuRVmCZg-bHflsKAH9IOood7iBZFrI9lcP2xMQXzbQ08AxQfzsDWa2gvWb4huE-NNQm0DlP1JDX8HBHTlYs0StipFpzFamNIOFp5xeiy8izbhuXAKP0Zz8eZKjdEtT02ApxK_yKmL8PijG-jmpvRbgPFzlTJNPhYGkdxDJo4Lw9YhIz4H9nA-Ia48aqlju1zB8KY8hGBI92oBXLCzT0s72rcuUaAdcgAAAAGqu24TAA")
-STRING4 = getenv("STRING_SESSION4", "BQGG19QAM9Oz32BmDhulouBPwK5VqyNJ2wSGBiGyzc3qUesXWhI3M3DTr_h5V9kmj2wdXUaZRGwSq8q_M2xc3H8dJKf_wztRC_efdx8prz_ajWkokKccqBmlN3AObxuRVmCZg-bHflsKAH9IOood7iBZFrI9lcP2xMQXzbQ08AxQfzsDWa2gvWb4huE-NNQm0DlP1JDX8HBHTlYs0StipFpzFamNIOFp5xeiy8izbhuXAKP0Zz8eZKjdEtT02ApxK_yKmL8PijG-jmpvRbgPFzlTJNPhYGkdxDJo4Lw9YhIz4H9nA-Ia48aqlju1zB8KY8hGBI92oBXLCzT0s72rcuUaAdcgAAAAGqu24TAA")
-STRING5 = getenv("STRING_SESSION5", "BQGG19QAM9Oz32BmDhulouBPwK5VqyNJ2wSGBiGyzc3qUesXWhI3M3DTr_h5V9kmj2wdXUaZRGwSq8q_M2xc3H8dJKf_wztRC_efdx8prz_ajWkokKccqBmlN3AObxuRVmCZg-bHflsKAH9IOood7iBZFrI9lcP2xMQXzbQ08AxQfzsDWa2gvWb4huE-NNQm0DlP1JDX8HBHTlYs0StipFpzFamNIOFp5xeiy8izbhuXAKP0Zz8eZKjdEtT02ApxK_yKmL8PijG-jmpvRbgPFzlTJNPhYGkdxDJo4Lw9YhIz4H9nA-Ia48aqlju1zB8KY8hGBI92oBXLCzT0s72rcuUaAdcgAAAAGqu24TAA")
+STRING1 = getenv("STRING_SESSION", None)
+STRING2 = getenv("STRING_SESSION2", None)
+STRING3 = getenv("STRING_SESSION3", None)
+STRING4 = getenv("STRING_SESSION4", None)
+STRING5 = getenv("STRING_SESSION5", None)
 
 
 #    __      _______ _____    ___  __ _    _  _____ _____ _____   _____
